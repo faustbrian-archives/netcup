@@ -46,7 +46,7 @@ class Client
     {
         $this->username = $username;
         $this->password = $password;
-        $this->client   = new SOAPClient($this->wsdl, ['cache_wsdl' => 0]);
+        $this->client = new SOAPClient($this->wsdl, ['cache_wsdl' => 0]);
     }
 
     /**
