@@ -1,13 +1,20 @@
 {
-    "name": "faustbrian/netcup-php-client",
+    "name": "plients/netcup",
     "description": "A Netcup Client for PHP",
-    "keywords": ["api", "netcup", "soap", "vserver"],
+    "keywords": [
+        "api",
+        "netcup",
+        "soap",
+        "vserver"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1"
     },
@@ -17,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Netcup\\": "src"
+            "Plients\\Netcup\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Netcup\\": "tests"
+            "Plients\\Tests\\Netcup\\": "tests"
         }
     },
     "config": {
